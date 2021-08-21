@@ -65,7 +65,7 @@
         color: aliceblue;
         background-color: #314dbd;
         box-shadow: 1px 3px 5px red;
-        font-weight: 700;
+        font-weight: 701;
     }
 
     #O3 {
@@ -152,10 +152,10 @@
         <div class="container">
             <div class="output">
                 <center>
-                <?php
-                $answer = $_GET["ans"];
-                echo $answer;
-                ?>
+                    <?php
+                    $answer = $_GET["ans"];
+                    echo $answer;
+                    ?>
                 </center>
             </div>
 
@@ -177,7 +177,7 @@
             </div>
 
             <div class="Operations">
-                <input type="radio" name="Choice" id="option" value="B" required/>Bit Wise
+                <input type="radio" name="Choice" id="option" value="B" required />Bit Wise
                 </br>
                 <div class="ari">
                     <input type='text' name="Num61" class="f1" placeholder="Number 1">
@@ -193,7 +193,7 @@
 
 
             <div class="Operations">
-                <input type="radio" name="Choice" id="option" value="T" required/>Trigonometric
+                <input type="radio" name="Choice" id="option" value="T" required />Trigonometric
                 </br>
                 <div class="ari">
                     <select name="Operation2" id="O2">
@@ -211,7 +211,7 @@
 
 
             <div class="Operations">
-                <input type="radio" name="Choice" id="option" value="E" required/>Exponential
+                <input type="radio" name="Choice" id="option" value="E" required />Exponential
                 </br>
                 <div class="ari">
                     <input type='text' name="Num31" class="f1" placeholder="Value">
@@ -221,7 +221,7 @@
 
 
             <div class="Operations">
-                <input type="radio" name="Choice" id="option" value="R" required/>Root
+                <input type="radio" name="Choice" id="option" value="R" required />Root
                 <div class="ari">
                     <input type='text' name="Num41" class="f1" placeholder="Value">
                     <input type='text' name="Num42" class="f1" placeholder="Root">
@@ -232,7 +232,7 @@
 
 
             <div class="Operations">
-                <input type="radio" name="Choice" id="option" value="L" required/>Logarithmic
+                <input type="radio" name="Choice" id="option" value="L" required />Logarithmic
                 <div class="ari">
                     <input type='text' name="Num51" class="f1" placeholder="Value">
                     <input type='text' name="Num52" class="f1" placeholder="Base">
@@ -246,15 +246,7 @@
                 <input type="submit" class="btn" value="Calculate">
             </div>
 
-
-
-
-
         </div>
-
-
-
-
 
     </form>
 
