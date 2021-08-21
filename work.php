@@ -130,7 +130,7 @@ $eq = rawurlencode($eq);
 
 $host  = $_SERVER['HTTP_HOST'];
 $uri   = rtrim(dirname($_SERVER['PHP_SELF']), '/\\');
-$extra = '20bcs102.php';
+$extra = 'index.php';
 
 header("Location: http://$host/$uri/$extra?ans=$eq");
 exit();
